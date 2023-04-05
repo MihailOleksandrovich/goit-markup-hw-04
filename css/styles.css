@@ -133,6 +133,13 @@ img {
   background-color: var(--color-menu);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(to right,
+  rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7) ),
+  url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .section-name {
   font-weight: 700;
@@ -209,7 +216,15 @@ img {
 .section-subtitle {
   margin-bottom: 8px;
 }
-
+.background-benefit {
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* What are we doing*/
 .work-examples {
   display: flex;
