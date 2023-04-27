@@ -316,7 +316,7 @@ img {
 }
 .employee-link:hover,
 .employee-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--color-blue)
 }
 /* CUSTOMERS */
 .title-customers {
