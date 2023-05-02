@@ -138,7 +138,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office-1.jpg");
+    url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -358,8 +358,8 @@ img {
 }
 .reference-customers:hover,
 .reference-customers:focus {
-  border: 1px solid #404bbf;
-  color: #404bbf;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
 }
 .reference-customers:focus {
   outline: none;
