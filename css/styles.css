@@ -6,6 +6,8 @@
   --color-blue: #404bbf;
   --color-grey: #8e8f99;
   --white-grey: #f4f4fd;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 .list {
   list-style: none;
@@ -14,7 +16,7 @@
   text-decoration: none;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: var(--color-nav-links);
   background-color: var(--color-white);
 }
@@ -25,7 +27,7 @@ body {
 .section-second {
   padding-top: 120px;
 }
-/*===================Reset styles HM3================== */
+
 h1,
 h2,
 h3,
@@ -52,7 +54,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-/*===========================HEADER FIRST AND SEKOND PAGE============================*/
+/*=======HEADER =============*/
 .page-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
@@ -76,7 +78,7 @@ img {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -88,7 +90,7 @@ img {
   margin-right: 76px;
 }
 .header-part-word {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -129,7 +131,7 @@ img {
   color: var(--color-blue);
 }
 
-/*=========================SECTION HERO FIRST PAGE====================== */
+/*=== HERO 1 PAGE=== */
 .hero {
   background-color: var(--color-menu);
   padding-top: 188px;
@@ -157,7 +159,7 @@ img {
   margin-bottom: 48px;
 }
 .modal-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -196,7 +198,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*=================================Second section STRATEGY PUNCTUALITY==========================*/
+/*=============Second section ===========*/
 .list-of-benefits {
   display: flex;
 }
@@ -232,7 +234,7 @@ img {
   align-items: center;
 }
 
-/*Third section What are we doing*/
+/*3 section What are we doing*/
 .work-examples {
   display: flex;
   flex-wrap: wrap;
@@ -241,7 +243,7 @@ img {
   margin-right: 24px;
 }
 
-/*COMPONENS FOR TWO SECTOIN TITLE: What are we doing and Our team*/
+/*COMPONENS FOR 2 SECTOIN TITLE: What are we doing and Our team*/
 
 .section-title {
   font-weight: 700;
@@ -254,7 +256,7 @@ img {
 
   color: var(--color-menu);
 }
-/*COMPONENS FIRST SECTION for h for section Our team*/
+/*COMPONENS 1 h for section Our team*/
 .web-studioworker {
   font-weight: 500;
   font-size: 20px;
@@ -265,7 +267,7 @@ img {
   color: var(--color-menu);
   margin-bottom: 8px;
 }
-/*COMPONENS FIRST SECTION for p heading */
+/*1 SECTION heading */
 .web-studioworker-speciality {
   font-weight: 400;
   font-size: 16px;
@@ -274,7 +276,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-/*==========================FOURTH SECTION OUR TEAM====================== */
+/*==========4 SECTION OUR TEAM====================== */
 .section-list-team {
   background-color: #f4f4fd;
 }
@@ -314,7 +316,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #4d5ae5;
+  background-color: var(--font-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,7 +331,7 @@ img {
   padding-bottom: 120px;
 }
 .caption-customers {
-  font-family: Roboto;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -379,17 +381,17 @@ img {
   height: 100%;
 }
 
-/*=====================SECTION HERO SECOND PAGE=========================*/
-/*BUTTONS All-WebSite-App-Design-Marketing*/
+/*============SECTION HERO 2 PAGE=================*/
+
 .filter-btn {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
 
   color: var(--font-color);
-  background-color: #f4f4fd;
+  background-color: var(--white-grey);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
@@ -482,7 +484,7 @@ img {
   margin-left: 120px;
 }
 .footer-part-word {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -530,7 +532,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #4d5ae5;
+  background-color: var(--font-color);
   display: flex;
   align-items: center;
   justify-content: center;
